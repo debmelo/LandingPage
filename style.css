@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Hurricane&family=Manjari:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #D3E4CD 16.2%, #F2DDC1 85.61%)
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.logo{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    font-family: 'Manjari', sans-serif;
+    color: #99A799;
+    font-size: 18px;
+    align-items: center;
+    
+}
+
+
+.conteudo-central{
+    margin-bottom: 48px;
+    border-top: 0.1px solid #99A799;
+
+}
+
+.conteudo-central-primeiro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    gap: 48px;
+
+}
+
+
+.conteudo-central-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+} 
+
+
+h1{
+    font-family: 'Manjari', sans-serif;
+    color: #99A799;
+    font-size: 60px;
+    font-weight: lighter;; 
+}
+
+
+h3{
+    font-family: 'Manjari', sans-serif;
+    color: #99A799;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.botao{
+    background-color: #E2C2B9;
+    width: 180px;
+    height: 50px;
+    font-family: 'Manjari', sans-serif;
+    font-weight: 400px;
+    color: beige;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    margin-top: 48px;
+
+
+}
+
+.imagem-principal{
+
+    border-radius: 50%;
+    height: 400px ;
+    padding: 24px;
+    margin-top: 48px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-central-segundo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 48px;
+    align-items: center;
+    font-family: 'Manjari', sans-serif;
+    color: #99A799;
+
+}
+.titulo-central-segundo{
+    border-top: 0.1px solid #99A799;
+    padding-top: 48px;
+
+}
+
+
+footer{
+    padding: 24px;
+    border-top: 0.1px solid #99A799;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(136, 136, 136);
+    font-family: 'Antic Didone', serif;
+    font: lighter;
+    font-size: 15px;
+
+
+}
+
