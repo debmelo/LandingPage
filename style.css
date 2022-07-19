@@ -11,10 +11,29 @@
     text-decoration: none;
 }
 
-body{
+html, body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, #bccab7 16.2%, #F2DDC1 85.61%)
+    background: linear-gradient(68.15deg, #bccab7 16.2%, #F2DDC1 85.61%);
+    min-height: 100%;
+
+    
 }
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    color: #5a5f5a;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+
+h3{
+    font-family: 'Cormorant Garamond', serif;
+    color: #777d77;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
 
 .cabecalho{
     display: flex;
@@ -27,8 +46,13 @@ body{
 }
 
 .logo{
-    height: 72px;
-}
+ 
+    height: 100px ;
+    width: 140px;
+
+    
+   
+    }
 
 .cabecalho-menu{
     display: flex;
@@ -43,7 +67,7 @@ body{
 
 
 .conteudo-central{
-    margin-bottom: 48px;
+    margin: 0;
     border-top: 0.1px solid #99A799;
     
 
@@ -65,26 +89,15 @@ body{
 } 
 
 
-h1{
-    font-family: 'Cormorant Garamond', serif;
-    color: #5a5f5a;
-    font-size: 90px;
-    font-weight: lighter;
-}
 
 
-h3{
-    font-family: 'Cormorant Garamond', serif;
-    color: #777d77;
-    font-size: 25px;
-    font-weight: lighter;
-}
+
 
 .botao{
     background-color: #f5e8d6;
     width: 180px;
     height: 50px;
-    font-family: 'Cormorant Garamond', serif;;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 400px;
     color: rgb(48, 48, 47);
     border-radius: 20px;
@@ -126,18 +139,154 @@ h3{
 
 }
 
-
-footer{
-    padding: 12px;
-    align-items: center;
+.conteudo-sobre{
     display: flex;
     flex-direction: column;
-    color: rgb(136, 136, 136);
+    justify-content: space-around;
+    gap: 24px;
+    margin-left: 15% ;
+    margin-right: 15% ;
+    align-items: center;
     font-family: 'Cormorant Garamond', serif;;
-    font: lighter;
-    font-size: 15px;
+    color: #3d3d3d;
+    padding: 0px;
+    font-size: 20px;
     
+}
+
+.conteudo-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 24px;
+    margin-left: 15% ;
+    margin-right: 15% ;
+    align-items: center;
+    font-family: 'Cormorant Garamond', serif;;
+    color: #777d77;
+    padding: 0px;
+    font-size: 18px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+    padding: 3%;
+
+}
+
+.ImagensFileira{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .Imagem{
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+     
+  }
+
+
+.rodape{
+
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(48, 48, 47);
+
+
+    
+}
+
+.rodape-conteudo{
+
+    position: relative;
+    bottom: 0;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(48, 48, 47);
+
+
+    
+}
+
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 5% auto;
+    width: 600px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+
+label {
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    text-align: left;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+
+
 
 
 }
+
+
+.botaoAgenda{
+    background-color: #f5e8d6;
+    width: 180px;
+    height: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400px;
+    color: rgb(48, 48, 47);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    margin-top: 48px;
+
+}
+
+input{
+
+    font: 1em sans-serif;
+    height: 30px;
+
+    width: 500px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    border: 1px solid #999;
+
+}
+
+textarea{
+
+    font: 1em sans-serif;
+    height: 80px;
+    width: 500px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+
+}
+
+
 
